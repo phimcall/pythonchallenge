@@ -1,0 +1,8 @@
+# Ignore Emacs backup files.
+*~
+*#
+.#*
+.project
+.DS_Store
+.idea
+.secret

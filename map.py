@@ -42,7 +42,6 @@ def wordRemap(word):
     >>> wordRemap('abc')
     'cde'
     """
-    # word を一字ずつ配列化
     remap_word = map(__remapAlphabet__, word)
     return ''.join(remap_word)
 
